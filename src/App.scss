@@ -1,0 +1,34 @@
+@import "./assets/styles/textSize";
+@import "./assets/styles/colors";
+
+body {
+	background: $body-color;
+}
+
+body,
+p {
+	font-size: $paragraphs-size;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: $h1-size;
+}
+
+h2 {
+	font-size: $h2-size;
+}
+
+h1,
+h2 {
+	font-weight: 700;
+}
+
+h3 {
+	font-size: $h3-size;
+	font-weight: 500;
+}
+
+h6 {
+	font-size: $h6-size;
+}
