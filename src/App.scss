@@ -1,12 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @import "./assets/styles/textSize";
 @import "./assets/styles/colors";
 
 body {
 	background: $body-color;
+	font-family: "Inter", sans-serif;
 }
 
 body,
+a,
 p {
+	color: $text-color;
 	font-size: $paragraphs-size;
 	font-weight: 400;
 }
@@ -31,4 +35,13 @@ h3 {
 
 h6 {
 	font-size: $h6-size;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $main-text-color;
 }
