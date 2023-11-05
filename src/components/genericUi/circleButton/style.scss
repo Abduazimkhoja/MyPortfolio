@@ -1,0 +1,42 @@
+@import "../../../assets/styles/colors";
+
+.circleButton {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border-radius: 50%;
+	background: $secondary-color;
+
+	&-lg {
+		width: 40px;
+		height: 40px;
+	}
+
+	&-sm {
+		width: 24px;
+		height: 24px;
+	}
+
+	transition:
+		background 0.3s ease,
+		color 0.3s ease;
+
+	&:hover {
+		background: $primary-color;
+
+		// icon color hover
+		&.circleButton svg {
+			color: $main-text-color;
+		}
+	}
+
+
+
+	// icon color
+	& svg {
+		width: 18px;
+		height: 18px;
+		color: $text-color;
+	}
+}
