@@ -20,6 +20,7 @@
 
 	transition:
 		background 0.3s ease,
+		transform 0.3s ease,
 		color 0.3s ease;
 
 	&:hover {
@@ -30,8 +31,6 @@
 			color: $main-text-color;
 		}
 	}
-
-
 
 	// icon color
 	& svg {
