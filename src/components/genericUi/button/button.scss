@@ -1,0 +1,35 @@
+@import "../../../assets/styles/colors";
+
+.button,
+.button-black,
+.button-white {
+	text-transform: uppercase;
+	border-radius: 5px;
+	background: $primary-color;
+
+	font-size: 14px;
+	font-weight: 600;
+
+	&-lg {
+		font-size: 24px;
+		font-weight: 700;
+
+		padding: 16px 32px;
+		border-radius: 8px;
+	}
+
+	&-md {
+		padding: 10px 40px;
+	}
+
+	&-sm {
+		padding: 9px 24px;
+	}
+}
+
+.button-black {
+	color: $black-color;
+}
+.button-white {
+	color: $white-color;
+}
