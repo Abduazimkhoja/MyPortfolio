@@ -1,14 +1,18 @@
-@import "../../../assets/styles/colors";
+@import "@styles/colors";
 
 .button,
 .button-black,
 .button-white {
-	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 	border-radius: 5px;
 	background: $primary-color;
 
 	font-size: 14px;
 	font-weight: 600;
+	text-transform: uppercase;
 
 	transition:
 		background 0.3s ease,
@@ -16,6 +20,8 @@
 		color 0.3s ease;
 
 	&-lg {
+		gap: 10px;
+
 		font-size: 24px;
 		font-weight: 700;
 
@@ -24,10 +30,14 @@
 	}
 
 	&-md {
+		gap: 8px;
+
 		padding: 10px 40px;
 	}
 
 	&-sm {
+		gap: 5px;
+
 		padding: 9px 24px;
 	}
 }
