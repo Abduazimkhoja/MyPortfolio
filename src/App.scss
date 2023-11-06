@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-@import "./assets/styles/textSize";
-@import "./assets/styles/colors";
+@import "@styles/textSize";
+@import "@styles/colors";
 
 body {
 	background: $body-color;
