@@ -1,3 +1,3 @@
-export const Card = () => {
+export const ProjectCard = () => {
 	return <div>Card</div>
 }
